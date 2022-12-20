@@ -1,0 +1,48 @@
+body {
+    background-color: #f9eeee;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+.cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 250px;
+    height: auto;
+    background-color: rgb(33, 33, 33);
+    border-radius: 5px;
+    border: solid #555 1px;
+    box-shadow: 0px 5px 20px 1px rgba(0, 0, 0, 0.859);
+    margin: 15px;
+    padding-bottom: 5px;
+
+}
+
+.card img {
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+    border-bottom: solid #555 1px;
+}
+
+.page-url,
+.last-scan {
+    margin: 5px;
+    color: green;
+}
+
+a {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.last-scan {
+    font-size: small;
+}
